@@ -2,8 +2,8 @@ require 'json'
 require 'sinatra'
 require 'httparty'
 
-POKE_API_URL = 'https://pokeapi.co/api/v2/'
-LOCAL_API_URL = 'http://localhost:4567/api/v2/'
+POKE_API_URL = 'http://api.zb.plus/data/v1/'
+LOCAL_API_URL = 'http://localhost:8080'
 cache = {}
 
 def fix_api_urls obj_or_arr
